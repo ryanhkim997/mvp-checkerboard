@@ -10,7 +10,7 @@ Creates an MVP version of a checkerboard. Routes for GET, POST, and DELETE reque
 
 ### Installing Dependencies and Start Server
 
-From within the take-home directory:
+From within the root directory:
 
 ```sh
 npm install
