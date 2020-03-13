@@ -1,0 +1,41 @@
+{
+  "name": "take-home",
+  "version": "1.0.0",
+  "description": "This is a standard pre-interview take-home project that will be used to evaluate the full-stack expertise of candidates looking to join the team at Budee.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "dev:react": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Budee-Inc/take-home.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Budee-Inc/take-home/issues"
+  },
+  "homepage": "https://github.com/Budee-Inc/take-home#readme",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.23.0",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.4.1",
+    "cors": "^2.8.5",
+    "express": "^4.15.0",
+    "mongoose": "^5.9.4",
+    "nodemon": "^1.19.3",
+    "path": "^0.12.7",
+    "react": "^15.4.2",
+    "react-bootstrap": "^1.0.0-beta.17",
+    "react-dom": "^15.4.2"
+  }
+}
