@@ -17,3 +17,6 @@ npm install
 npm start
 npm run dev:react
 ```
+### Spinning the checkerboard up:
+
+Open in the browser: localhost:3000
